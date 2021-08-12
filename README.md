@@ -7,4 +7,4 @@
 # 3. Adds labels to variables
 # 4. Extracts the mean and standard deviation data for each variable
 # 5. Adds/modifies descriptive labels to data columns and activities
-# 6. Creates a new dataset of the average of each variable for each activity #    and subject called "tidydata.txt"
+# 6. Creates a new dataset of the average of each variable for each activity and subject called "tidydata.txt"
