@@ -1,6 +1,5 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-<<<<<<< HEAD
 ## This code is for the Getting and Cleaning Data Course Project. 
 ### The code...
 #### 1. Downloads and reads the data files into R
