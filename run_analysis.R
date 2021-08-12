@@ -64,4 +64,3 @@ dataAverages <- dataAverages[order(dataAverages$subject,dataAverages$activity),]
 write.table(dataAverages, file = "tidydata.txt", row.name=FALSE)
 
 
-
