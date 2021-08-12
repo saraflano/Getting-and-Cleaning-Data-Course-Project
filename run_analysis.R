@@ -55,7 +55,10 @@ names(dataExtracted) <- gsub("Gyro", "gyroscope", names(dataExtracted))
 names(dataExtracted) <- gsub("Acc", "accelerometer", names(dataExtracted))
 names(dataExtracted) <- gsub("Mag", "magnitude", names(dataExtracted))
 names(dataExtracted) <- gsub("^f", "frequency", names(dataExtracted))
-names(dataExtracted) <- gsub("BodyBody", "Body", names(dataExtracted))
+names(dataExtracted) <- gsub("BodyBody", "body", names(dataExtracted))
+names(dataExtracted) <- gsub("Body", "body", names(dataExtracted))
+names(dataExtracted) <- gsub("Jerk", "jerk", names(dataExtracted))
+names(dataExtracted) <- gsub("Gravity", "gravity", names(dataExtracted))
 
 ## Create data set with average of each variable for each activity and subject
 library(plyr)
